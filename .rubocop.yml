@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - config/unicorn.rb
+    - db/**
+    - vendor/**
+Documentation:
+  Enabled: false
+Rails:
+  Enabled: true

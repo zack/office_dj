@@ -1,0 +1,14 @@
+language: ruby
+
+rvm:
+- 2.4.2
+
+before_script:
+  bundle exec rake db:migrate
+
+script:
+  bundle exec rails test &&
+  bundle exec rubocop
+
+notifications:
+  email: false

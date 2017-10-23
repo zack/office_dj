@@ -1,13 +1,13 @@
 AllCops:
   Exclude:
-    - config/unicorn.rb
-    - db/**
-    - vendor/**
+    - 'db/schema.rb'
+    - 'vendor/**/*'
+
 Documentation:
   Enabled: false
 
 Rails:
   Enabled: true
 
-Rails/SaveBang:
-  Enabled: false
+Style/FrozenStringLiteralComment:
+    Enabled: false

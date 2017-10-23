@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root 'welcome#index'
 
-  get 'users/new'
+  resource :users
 end

@@ -1,0 +1,6 @@
+test:
+  email_domain: 'test./com'
+
+production:
+  email_domain: ~
+

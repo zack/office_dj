@@ -222,27 +222,27 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt (~> 3.1)
-  byebug (~> 9.1)
-  capybara (~> 2.15)
-  guard (~> 2.14)
-  guard-minitest (~> 2.4)
-  jbuilder (~> 2.7)
-  listen (~> 3.1)
-  minitest-reporters (~> 1.1)
-  puma (~> 3.10)
-  rails (~> 5.1)
-  rails-controller-testing (~> 1.0)
-  rubocop (~> 0.51)
-  sass-rails (~> 5.0)
-  selenium-webdriver (~> 3.6)
-  spring (~> 2.0)
-  spring-watcher-listen (~> 2.0)
-  sqlite3 (~> 1.3)
-  turbolinks (~> 5.0)
+  bcrypt
+  byebug
+  capybara
+  guard
+  guard-minitest
+  jbuilder
+  listen
+  minitest-reporters
+  puma
+  rails
+  rails-controller-testing
+  rubocop
+  sass-rails
+  selenium-webdriver
+  spring
+  spring-watcher-listen
+  sqlite3
+  turbolinks
   tzinfo-data
-  uglifier (~> 3.2)
-  web-console (~> 3.5)
+  uglifier
+  web-console
 
 BUNDLED WITH
    1.15.4

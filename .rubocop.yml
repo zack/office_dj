@@ -1,0 +1,13 @@
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+    - 'vendor/**/*'
+
+Documentation:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+    Enabled: false

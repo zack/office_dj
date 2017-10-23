@@ -1,6 +1,5 @@
 test:
-  email_domain: 'test./com'
+  email_domain: 'test\.com'
 
 production:
   email_domain: ~
-

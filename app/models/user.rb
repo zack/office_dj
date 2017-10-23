@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  VALID_EMAIL_REGEX = /\b[a-zA-Z0-9._%\-]+@#{ENV['EMAIL_DOMAIN']}\z/
+  VALID_EMAIL_REGEX = /\b[a-zA-Z0-9._%\-]+@#{ENV['email_domain']}\z/
 
   has_secure_password
 

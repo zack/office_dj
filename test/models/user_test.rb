@@ -2,7 +2,6 @@ require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
   setup do
-    ENV['EMAIL_DOMAIN'] = 'test\.com'
     @user = User.new(password: 'foobar', password_confirmation: 'foobar')
   end
 

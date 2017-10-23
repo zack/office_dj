@@ -5,5 +5,9 @@ AllCops:
     - vendor/**
 Documentation:
   Enabled: false
+
 Rails:
   Enabled: true
+
+Rails/SaveBang:
+  Enabled: false

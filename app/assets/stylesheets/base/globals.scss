@@ -1,16 +1,15 @@
-@mixin box_sizing {
+* {
+  font-family: 'Times New Roman', 'Serif';
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
   box-sizing:         border-box;
 }
 
 body {
-  margin: 0 45px;
+  margin: 45px;
 }
 
 .debug_dump {
-  @include box_sizing;
-
   background-color: #eaeaea;
   border-radius: 2px;
   border: 1px solid grey;

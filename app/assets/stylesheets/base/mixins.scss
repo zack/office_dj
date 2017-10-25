@@ -1,0 +1,26 @@
+@mixin button-style($font-size, $height) {
+  background-color: white;
+  border-radius: 4px;
+  border: 2px solid black;
+  box-shadow: 0px 2px 2px 0 rgba(0,0,0,0.2);
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: $font-size;
+  font-weight: bold;
+  line-height: $height;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(0,0,0,0.2);
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #EEE;
+  }
+
+  &:active {
+    background-color: #DDD;
+    box-shadow: 0px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  }
+}
+
